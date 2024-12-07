@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
+  resources :shorten_urls, only: [:index, :create, :show]
   resources :users, only: [:create]
   post 'login', to: 'users#login'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get '/:shortened_url', to: 'shorten_urls#redirect_to_original' 
 end

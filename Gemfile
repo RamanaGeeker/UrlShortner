@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 gem 'sqlite3'
 gem 'jwt'
 gem 'bcrypt'
+gem 'active_model_serializers'
+gem 'dotenv-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets

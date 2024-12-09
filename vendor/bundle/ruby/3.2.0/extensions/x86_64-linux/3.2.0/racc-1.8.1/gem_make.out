@@ -1,0 +1,18 @@
+current directory: /home/venkat/url_shortner/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/usr/share/rvm/rubies/ruby-3.2.0/bin/ruby -I /usr/share/rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /home/venkat/url_shortner/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241209-22949-s5jyrt sitelibdir\=./.gem.20241209-22949-s5jyrt clean
+
+current directory: /home/venkat/url_shortner/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241209-22949-s5jyrt sitelibdir\=./.gem.20241209-22949-s5jyrt
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/venkat/url_shortner/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241209-22949-s5jyrt sitelibdir\=./.gem.20241209-22949-s5jyrt install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20241209-22949-s5jyrt/racc
+
+current directory: /home/venkat/url_shortner/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241209-22949-s5jyrt sitelibdir\=./.gem.20241209-22949-s5jyrt clean
